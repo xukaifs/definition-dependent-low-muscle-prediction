@@ -1,0 +1,23 @@
+,,,,,,
+Paired model comparisons,,,,,,
+Differences and percentile CIs use the same 500 stratified-PSU bootstrap replicates.,,,,,,
+,,,,,,
+target,comparison,metric,difference estimate,ci lower 95,ci upper 95,bootstrap valid replicates
+P5,Neural network minus Linear logistic,weighted_roc_auc,0.003859427254865544,0.0022187021637959992,0.005400628338503933,500
+P5,Neural network minus Linear logistic,weighted_brier,-0.001468911771939866,-0.001951071624577707,-0.0009854089190139625,500
+P5,Spline logistic minus Linear logistic,weighted_roc_auc,0.001902593808249864,0.00012375724857087713,0.0037558563137389833,500
+P5,Spline logistic minus Linear logistic,weighted_brier,-0.0006381392370129677,-0.0010729664695964282,-0.00019798859845799688,500
+P5,Neural network minus Spline logistic,weighted_roc_auc,0.00195683344661568,0.000416241637065784,0.0034780018363959014,500
+P5,Neural network minus Spline logistic,weighted_brier,-0.0008307725349268984,-0.0012549783069557758,-0.0004223558431153841,500
+EWGSOP2,Neural network minus Linear logistic,weighted_roc_auc,0.0018255348800663151,0.00047036518762017817,0.003192027974594252,500
+EWGSOP2,Neural network minus Linear logistic,weighted_brier,-0.0012052042970326707,-0.0018133012562726004,-0.0006539941806591536,500
+EWGSOP2,Spline logistic minus Linear logistic,weighted_roc_auc,0.0004937068797806754,-0.0005003341182535259,0.0015029753682573837,500
+EWGSOP2,Spline logistic minus Linear logistic,weighted_brier,-0.00014900605830695662,-0.0005805757335140361,0.00026205978092656417,500
+EWGSOP2,Neural network minus Spline logistic,weighted_roc_auc,0.0013318280002856397,0.0001980487448385304,0.002501168205652026,500
+EWGSOP2,Neural network minus Spline logistic,weighted_brier,-0.001056198238725714,-0.001585702806362064,-0.0005193572166437194,500
+FNIH,Neural network minus Linear logistic,weighted_roc_auc,0.002266082804337266,0.00011225990718864709,0.0043157601995638655,500
+FNIH,Neural network minus Linear logistic,weighted_brier,-0.0016233472196660048,-0.002432572373225408,-0.0006680487424730715,500
+FNIH,Spline logistic minus Linear logistic,weighted_roc_auc,0.00030734541803523197,-0.0008740184491763059,0.0014781640048261344,500
+FNIH,Spline logistic minus Linear logistic,weighted_brier,-0.0002251593110313213,-0.0005345776843327022,0.00010274539946181841,500
+FNIH,Neural network minus Spline logistic,weighted_roc_auc,0.001958737386302034,0.00020183509924222857,0.0037899429144252392,500
+FNIH,Neural network minus Spline logistic,weighted_brier,-0.0013981879086346835,-0.0021541868488594343,-0.0006226896190525435,500

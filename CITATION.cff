@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use these resources, please cite the archived Zenodo release and the associated manuscript."
+title: "Definition-dependent prediction of DXA-defined low muscle mass: reproducibility resources"
+type: software
+version: 1.0.0
+date-released: 2026-10-09
+repository-code: "https://github.com/xukaifs/definition-dependent-low-muscle-prediction"
+authors:
+  - family-names: Sun
+    given-names: Xiaoqing
+    orcid: "https://orcid.org/0009-0009-5782-9024"
+  - family-names: Song
+    given-names: Weixiao
+  - family-names: Han
+    given-names: Taoyang
+    orcid: "https://orcid.org/0009-0005-4785-8148"
+  - family-names: Xu
+    given-names: Kai
+    orcid: "https://orcid.org/0000-0002-4654-1780"
+    affiliation: "Qingdao Municipal Hospital (Qingdao Hospital of University of Health and Rehabilitation Sciences)"
+license: MIT
+keywords:
+  - appendicular lean mass
+  - body composition
+  - DXA
+  - sarcopenia
+  - anthropometry
+  - external validation
+  - NHANES
+  - KNHANES

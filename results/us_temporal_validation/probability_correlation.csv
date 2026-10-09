@@ -1,0 +1,8 @@
+,,,
+Correlations among target-specific neural-network probabilities,,,
+Both unweighted and survey-weighted Spearman correlations are reported.,,,
+,,,
+prediction a,prediction b,spearman correlation unweighted,spearman correlation survey weighted
+P5,EWGSOP2,0.9787176643903579,0.9772461436886324
+P5,FNIH,-0.306328127091391,-0.3409166773465411
+EWGSOP2,FNIH,-0.26660660182318485,-0.30254371758104437

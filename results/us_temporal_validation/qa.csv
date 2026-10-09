@@ -1,0 +1,15 @@
+,,
+Final analysis quality assurance,,
+Every required lock and equivalence check must pass.,,
+,,
+check,status,observed
+Development cohort locked to 1999-2006,PASS,N=10926
+Temporal validation cohort locked to 2011-2018,PASS,N=10745
+All person-level rows retain five completed DXA datasets,PASS,development=[np.int64(5)]; validation=[np.int64(5)]
+Nine prespecified frozen model checkpoints loaded,PASS,9
+Validation predictions finite and bounded,PASS,nine prediction vectors checked
+Development thresholds use OOF predictions only,PASS,thresholds=18
+Paired temporal bootstrap complete,PASS,500
+Five-completed-dataset fractional/stacked equivalence,PASS,max abs difference=1.33e-15
+No validation recalibration applied,PASS,Calibration intercept/slope evaluated only; predictions unchanged
+No validation model or hyperparameter selection,PASS,All parameters inherited from locked development Stage 2

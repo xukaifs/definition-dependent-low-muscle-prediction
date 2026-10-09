@@ -1,0 +1,19 @@
+,,,,,,,,,,,
+Paper 3 final locked re-analysis,,,,,,,,,,,
+NHANES 1999–2006 development; frozen NHANES 2011–2018 temporal validation; survey-weighted estimates,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+Outcome,Validation prevalence,Linear AUROC,Linear CI low,Linear CI high,Spline AUROC,NN AUROC,NN CI low,NN CI high,NN−linear ΔAUROC,NN−linear ΔBrier,NN calibration slope
+P5,0.038098620426889725,0.957520922632406,0.9522308917758917,0.9623086816938877,0.9594235164406558,0.9613803498872715,0.9561156785903883,0.9661456088536964,0.003859427254865544,-0.001468911771939866,1.0691008795542414
+EWGSOP2,0.0889973859696606,0.9514353282841862,0.9468191892637937,0.9558481324544176,0.9519290351639669,0.9532608631642525,0.9490021809364207,0.9575152480240435,0.0018255348800663151,-0.0012052042970326707,1.0673287542661987
+FNIH,0.07419939558054599,0.9520245283161701,0.9468482887564754,0.9578284614079688,0.9523318737342054,0.9542906111205074,0.9485840059354324,0.9600640239865104,0.002266082804337266,-0.0016233472196660048,0.9747870646082398
+,,,,,,,,,,,
+,,,,,,,,,,,
+Locked design,,,,,,,,,,,
+Predictors,"Age, sex, height, weight, waist circumference",,,,,,,,,,
+Models,Linear logistic; spline logistic (4 knots); locked shallow neural network,,,,,,,,,,
+Development,NHANES 1999–2006; nested-CV out-of-fold evaluation,,,,,,,,,,
+Validation,"NHANES 2011–2018; no fitting, tuning, recalibration or threshold selection",,,,,,,,,,
+DXA datasets,All five completed datasets retained through the locked fractional-outcome equivalent workflow,,,,,,,,,,
+Uncertainty,500 paired PSU-within-stratum bootstrap replicates,,,,,,,,,,
+Cross-definition,Previously locked neural network used for all 3×3 comparisons,,,,,,,,,,

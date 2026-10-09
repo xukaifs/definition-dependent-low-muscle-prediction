@@ -1,0 +1,19 @@
+target,model,operating_point,target_sensitivity,frozen_probability_threshold,derivation_cohort
+P5,Linear logistic,Sensitivity 90%,0.9,0.05250443644660063,Development 1999-2006 nested-CV OOF only
+P5,Linear logistic,Sensitivity 80%,0.8,0.11681231247696884,Development 1999-2006 nested-CV OOF only
+P5,Spline logistic,Sensitivity 90%,0.9,0.053041712757963676,Development 1999-2006 nested-CV OOF only
+P5,Spline logistic,Sensitivity 80%,0.8,0.12067094060038375,Development 1999-2006 nested-CV OOF only
+P5,Neural network,Sensitivity 90%,0.9,0.0558865809904981,Development 1999-2006 nested-CV OOF only
+P5,Neural network,Sensitivity 80%,0.8,0.13661366513251763,Development 1999-2006 nested-CV OOF only
+EWGSOP2,Linear logistic,Sensitivity 90%,0.9,0.10189903123799923,Development 1999-2006 nested-CV OOF only
+EWGSOP2,Linear logistic,Sensitivity 80%,0.8,0.19941957175077782,Development 1999-2006 nested-CV OOF only
+EWGSOP2,Spline logistic,Sensitivity 90%,0.9,0.09797276889565851,Development 1999-2006 nested-CV OOF only
+EWGSOP2,Spline logistic,Sensitivity 80%,0.8,0.19517547885106667,Development 1999-2006 nested-CV OOF only
+EWGSOP2,Neural network,Sensitivity 90%,0.9,0.10705551435344587,Development 1999-2006 nested-CV OOF only
+EWGSOP2,Neural network,Sensitivity 80%,0.8,0.20367924560781736,Development 1999-2006 nested-CV OOF only
+FNIH,Linear logistic,Sensitivity 90%,0.9,0.051556607631791124,Development 1999-2006 nested-CV OOF only
+FNIH,Linear logistic,Sensitivity 80%,0.8,0.1196500996440275,Development 1999-2006 nested-CV OOF only
+FNIH,Spline logistic,Sensitivity 90%,0.9,0.05680047983055634,Development 1999-2006 nested-CV OOF only
+FNIH,Spline logistic,Sensitivity 80%,0.8,0.12141136780843156,Development 1999-2006 nested-CV OOF only
+FNIH,Neural network,Sensitivity 90%,0.9,0.05417098391188066,Development 1999-2006 nested-CV OOF only
+FNIH,Neural network,Sensitivity 80%,0.8,0.12406024631424944,Development 1999-2006 nested-CV OOF only

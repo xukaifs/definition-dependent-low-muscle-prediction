@@ -1,0 +1,8 @@
+check,status,evidence
+P5 positive class is low muscle,PASS,"p5_raw = as.integer(z < qnorm(0.05))"
+EWGSOP2 positive class is low muscle,PASS,"ewgsop2_raw = 1 when ALMI <7.0 kg/m2 in men or <5.5 kg/m2 in women"
+FNIH positive class is low muscle,PASS,"fnih_raw = 1 when ALM/BMI <0.789 in men or <0.512 in women"
+Frozen estimator class order,PASS,"All nine five-predictor estimators use classes [0,1]"
+Probability column direction,PASS,"All predictions use predict_proba(X)[:,1] = P(low muscle)"
+Own-target discrimination direction,PASS,"All 18 cohort-by-target own-target AUROCs exceed 0.5; minimum 0.8783"
+FNIH cross-definition AUROC interpretation,PASS,"Sub-0.5 cross-definition AUROCs coexist with near-zero/negative prediction correlations and very low Jaccard overlap; not a coding reversal"

@@ -1,0 +1,16 @@
+[2026-10-01 00:19:21] Loading prepared Korean cohorts and frozen US models
+[2026-10-01 00:19:23] PRELIMINARY POINT RESULTS READY
+[2026-10-01 00:20:39] Loading prepared Korean cohorts and frozen US models
+[2026-10-01 00:20:40] PRELIMINARY POINT RESULTS READY
+[2026-10-01 00:20:45] Starting paired 500-replicate stratified-PSU bootstrap
+[2026-10-01 00:22:23] KNHANES 2008-2011 stratified-PSU bootstrap 100/500
+[2026-10-01 00:23:56] KNHANES 2008-2011 stratified-PSU bootstrap 200/500
+[2026-10-01 00:25:35] KNHANES 2008-2011 stratified-PSU bootstrap 300/500
+[2026-10-01 00:27:14] KNHANES 2008-2011 stratified-PSU bootstrap 400/500
+[2026-10-01 00:28:52] KNHANES 2008-2011 stratified-PSU bootstrap 500/500
+[2026-10-01 00:29:46] KNHANES 2024 stratified-PSU bootstrap 100/500
+[2026-10-01 00:30:40] KNHANES 2024 stratified-PSU bootstrap 200/500
+[2026-10-01 00:31:33] KNHANES 2024 stratified-PSU bootstrap 300/500
+[2026-10-01 00:32:31] KNHANES 2024 stratified-PSU bootstrap 400/500
+[2026-10-01 00:33:19] KNHANES 2024 stratified-PSU bootstrap 500/500
+[2026-10-01 00:33:30] Frozen Korean external validation completed

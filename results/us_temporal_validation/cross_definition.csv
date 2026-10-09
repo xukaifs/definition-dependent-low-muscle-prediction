@@ -1,0 +1,14 @@
+,,,
+Cross-definition prediction matrix,,,
+Rows are neural-network training targets; columns are evaluated outcomes.,,,
+,,,
+trained target,evaluated outcome,weighted roc auc,model class
+P5,P5,0.9613803498872715,Previously locked neural network
+P5,EWGSOP2,0.9506320335024468,Previously locked neural network
+P5,FNIH,0.33314243619963524,Previously locked neural network
+EWGSOP2,P5,0.9531395228312944,Previously locked neural network
+EWGSOP2,EWGSOP2,0.9532608631642525,Previously locked neural network
+EWGSOP2,FNIH,0.33708031417343776,Previously locked neural network
+FNIH,P5,0.3158957114789937,Previously locked neural network
+FNIH,EWGSOP2,0.351245423294473,Previously locked neural network
+FNIH,FNIH,0.9542906111205074,Previously locked neural network

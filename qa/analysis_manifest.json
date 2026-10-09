@@ -1,0 +1,23 @@
+{
+  "analysis": "Frozen US Paper 3 models in KNHANES",
+  "date": "2026-10-01",
+  "primary": "KNHANES 2008-2011 age 20-59; raw Korean ALM",
+  "secondary": "KNHANES 2024 age 40-59; raw Korean ALM",
+  "predictors": [
+    "age",
+    "sex_male",
+    "height_cm",
+    "weight_kg",
+    "waist_cm"
+  ],
+  "models": "nine frozen US final models; no Korean refitting",
+  "thresholds": "frozen US development OOF 90% and 80% sensitivity thresholds",
+  "bootstrap": {
+    "replicates": 500,
+    "design": "PSU with replacement within cycle-nested strata"
+  },
+  "sensitivity": [
+    "historical KNHANES ALM factor 0.946",
+    "common empirical US-Korean age/height support"
+  ]
+}

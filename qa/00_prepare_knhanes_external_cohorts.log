@@ -1,0 +1,12 @@
+During startup - Warning messages:
+1: Setting LC_COLLATE=C.UTF-8 failed 
+2: Setting LC_CTYPE=C.UTF-8 failed 
+3: Setting LC_MONETARY=C.UTF-8 failed 
+4: Setting LC_TIME=C.UTF-8 failed 
+Warning messages:
+1: package 'haven' was built under R version 4.2.3 
+2: package 'gamlss' was built under R version 4.2.3 
+3: package 'gamlss.dist' was built under R version 4.2.3 
+            cohort participants age_min age_max missing_required strata psus
+ KNHANES 2008-2011        12848      20      59                0     97  579
+      KNHANES 2024         1533      40      59                0     27  175

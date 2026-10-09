@@ -1,0 +1,8 @@
+check,status,observed
+Frozen US five-predictor models loaded,PASS,9
+Frozen US four-predictor models loaded,PASS,9
+No Korean refitting/recalibration/tuning,PASS,predict_proba only
+Primary cohort age locked 20-59,PASS,12848
+Contemporary cohort available age 40-59,PASS,1533
+500 bootstrap replicates per cohort,PASS,500
+All required predictor values finite,PASS,age sex height weight waist

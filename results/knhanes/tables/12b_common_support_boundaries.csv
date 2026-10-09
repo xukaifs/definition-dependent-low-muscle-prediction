@@ -1,0 +1,5 @@
+cohort,sex,lower_height_cm,upper_height_cm
+KNHANES 2008-2011,Female,133.1,179.0
+KNHANES 2008-2011,Male,140.1,192.0
+KNHANES 2024,Female,141.3,178.0
+KNHANES 2024,Male,157.1,192.0
